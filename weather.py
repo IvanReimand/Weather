@@ -18,7 +18,7 @@ headers = {
 # Send GET request to the API
 response = requests.get(url, params=params, headers=headers)
 
-# Check if the request was successful
+# kontrollida: kas taotlus oli õnnestus
 if response.status_code == 200:
     # Parse the JSON response
     data = response.json()
